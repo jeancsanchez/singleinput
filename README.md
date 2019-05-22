@@ -49,7 +49,7 @@ allprojects {
 ````
 ````gradle
 dependencies {
-	compile 'com.heinrichreimersoftware:material-singleinputform:3.0.3'
+	implementation 'com.github.jeancsanchez:singleinput:version'
 }
 ````
 
