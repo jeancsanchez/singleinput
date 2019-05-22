@@ -382,4 +382,8 @@ abstract class SingleInputFormActivity : AppCompatActivity() {
         val layoutParams = innerContainer?.layoutParams as FrameLayout.LayoutParams
         return layoutParams.gravity
     }
+
+    fun setErrorMessage(message: String) {
+        errorSwitcher?.setText(message)
+    }
 }
