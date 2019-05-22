@@ -33,7 +33,7 @@
     android:paddingStart="@dimen/baseline"
     android:paddingEnd="@dimen/baseline_card">
 
-    <com.heinrichreimersoftware.singleinputform.widgets.CheckBoxCompat
+    <br.com.jeancsanchez.singleinput.widgets.CheckBoxCompat
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="start|center_vertical"
