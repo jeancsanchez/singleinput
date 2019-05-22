@@ -22,17 +22,12 @@
   ~ SOFTWARE.
   -->
 
-<resources>
-    <string name="app_name">Android-SingleInputForm</string>
-
-    <string name="date_format">%3$d.%2$d.%1$d</string>
-    <string name="page_number">%1$d/%2$d</string>
-
-    <!-- Only needed for accessibility -->
-    <string name="next_step">Next step</string>
-    <string name="previous_step">Previous step</string>
-    <string name="finish">Finish</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-</resources>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+        android:width="24dp"
+        android:height="24dp"
+        android:viewportWidth="24.0"
+        android:viewportHeight="24.0">
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M12,4l-1.41,1.41L16.17,11H4v2h12.17l-5.58,5.59L12,20l8,-8z"/>
+</vector>
