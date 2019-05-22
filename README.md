@@ -5,6 +5,8 @@ material-singleinputform
 
 [![](https://jitpack.io/v/jeancsanchez/singleinput.svg)](https://jitpack.io/#jeancsanchez/singleinput)
 
+**A fork from https://github.com/heinrichreimer/material-singleinputform**
+
 A single EditText instead of a classical form.
 
 This Library is a library implementation of  [flavienlaurent's "Single input form"][1]
