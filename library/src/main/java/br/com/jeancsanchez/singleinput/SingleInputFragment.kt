@@ -18,6 +18,7 @@ import androidx.cardview.widget.CardView
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import br.com.jeancsanchez.singleinput.steps.Step
+import kotlinx.android.synthetic.main.activity_single_input_form.*
 import java.util.*
 
 
@@ -391,4 +392,7 @@ abstract class SingleInputFragment : Fragment() {
         return layoutParams.gravity
     }
 
+    fun setErrorMessage(message: String) {
+        errorSwitcher?.setText(message)
+    }
 }
