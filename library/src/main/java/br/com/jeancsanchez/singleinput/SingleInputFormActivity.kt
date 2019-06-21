@@ -135,7 +135,13 @@ abstract class SingleInputFormActivity : AppCompatActivity() {
 
 
     protected fun getCurrentStep(): Step {
-        return getStep(stepIndex)
+        return try {
+            getStep(stepIndex)
+
+        } catch (e: IndexOutOfBoundsException) {
+            stepIndex -= 1
+            getStep(stepIndex)
+        }
     }
 
     protected fun getStep(position: Int): Step {
