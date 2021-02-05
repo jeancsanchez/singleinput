@@ -110,7 +110,7 @@ abstract class SingleInputFormActivity : AppCompatActivity() {
     }
 
 
-    override fun onRestoreInstanceState(savedInstanceState: Bundle?) {
+    override fun onRestoreInstanceState(savedInstanceState: Bundle) {
         super.onRestoreInstanceState(savedInstanceState)
 
         if (savedInstanceState != null) {
